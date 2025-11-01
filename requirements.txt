@@ -1,0 +1,39 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# NLP and text processing
+nltk>=3.8.0
+spacy>=3.5.0
+
+# Elasticsearch (compatible with Docker version 8.11.0)
+elasticsearch==8.11.0
+
+# Database options
+psycopg2-binary>=2.9.0  # PostgreSQL
+sqlalchemy>=2.0.0
+
+# Compression
+zstandard>=0.21.0  # Fast compression
+python-snappy>=0.6.1  # Google's Snappy
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Performance monitoring
+psutil>=5.9.0  # Memory/CPU monitoring
+memory_profiler>=0.61.0
+
+# Dataset loading
+datasets>=2.12.0  # HuggingFace datasets
+requests>=2.31.0
+
+# Testing and utilities
+pytest>=7.3.0
+tqdm>=4.65.0  # Progress bars
+
+# Optional: Jupyter for analysis
+jupyter>=1.0.0
+ipykernel>=6.23.0

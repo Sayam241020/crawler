@@ -1,0 +1,34 @@
+{
+  "index_name": "esindex-v1.0",
+  "index_type": "elasticsearch",
+  "configuration": {
+    "analyzer": "custom_english",
+    "preprocessing": "lowercase + stopwords + stemming"
+  },
+  "query_count": 256,
+  "phrase_queries": 21,
+  "regular_queries": 235,
+  "artifact_a_latency": {
+    "average_ms": 101.68778523802757,
+    "median_ms": 99.12347793579102,
+    "p50_ms": 99.12347793579102,
+    "p90_ms": 133.4400177001953,
+    "p95_ms": 145.40725946426392,
+    "p99_ms": 230.87687492370583,
+    "min_ms": 6.014347076416016,
+    "max_ms": 730.2753925323486,
+    "std_dev_ms": 51.4993685391892
+  },
+  "artifact_b_throughput": {
+    "queries_per_second": 9.834022814630405,
+    "total_queries": 256,
+    "total_time_sec": 26.03207302093506
+  },
+  "artifact_c_memory": {
+    "disk_size_mb": 418.1,
+    "disk_size_readable": "418.1mb",
+    "primary_size_readable": "418.1mb",
+    "document_count": 100000,
+    "ram_usage_gb": 0.0
+  }
+}

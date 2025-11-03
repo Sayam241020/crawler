@@ -1,0 +1,256 @@
+quantum mechanics
+"government" OR "policy"
+java island
+PHRASE "renewable energy technology development"
+ancient civilization
+political debate
+PHRASE "space exploration"
+congressional hearing
+golf club
+"apple" AND NOT "fruit"
+"mercury" AND NOT "planet"
+recurrent neural network
+"quantum" AND "computing"
+blockchain
+sports
+research
+reinforcement learning agent
+natural language processing
+"research" OR "study"
+PHRASE "global climate change policy"
+renewable
+ancient egypt
+deep learning autonomous vehicle safety
+tectonic plate
+hockey finals
+PHRASE "artificial intelligence ethics concerns"
+stem cells
+attention mechanism model
+politics
+cybersecurity
+cybersecurity threat
+winter olympics
+ocean current
+software testing
+why climate change important
+compare solar wind energy
+society
+atomic structure
+PHRASE "artificial intelligence ethics concerns"
+encryption algorithm
+climate summit
+"amazon" AND NOT "river"
+cryptocurrency
+"government" OR "administration"
+theory relativity
+"artificial" AND "intelligence" AND "ethics"
+app launch
+PHRASE "cyber security"
+nanotechnology application
+database management
+particle physics
+genetic engineering crop yield improvement
+"virus" AND NOT "computer"
+"education" OR "learning"
+("climate" OR "environment") AND "policy"
+PHRASE "natural language processing"
+quantum breakthrough
+distributed system
+nuclear fusion reaction
+programming language
+federal reserve
+"election" OR "voting"
+chemical reaction
+Amazon forest
+jaguar animal
+PHRASE "renewable energy technology development"
+PHRASE "deep learning"
+renewable transition
+where is great barrier reef
+who discovered penicillin
+golf championship
+("genetic" OR "gene") AND "engineering" AND NOT "clone"
+quantum computing cryptography security implications
+quarterly earnings
+PHRASE "artificial intelligence"
+"renewable" AND "energy"
+compiler design
+olympic medal
+network topology
+define machine learning
+"python" AND NOT "snake"
+what is quantum computing
+"health" AND "wellness"
+neural network image recognition performance
+("cyber" AND "security") OR ("data" AND "privacy")
+"machine" AND "learning" AND "algorithm"
+Mars planet
+roman empire
+"machine" AND "learning"
+dark matter theory
+periodic table
+age enlightenment
+"genetic" AND "engineering"
+renaissance period
+"quantum" AND "computing" AND "cryptography"
+immigration policy
+gravitational wave
+"data" AND "science" AND "python"
+"science" OR "technology"
+"turkey" AND NOT "bird"
+space exploration
+particle accelerator physics
+presidential campaign
+corporate earnings
+green hydrogen
+("covid" OR "pandemic") AND "vaccine" AND NOT "misinformation"
+stem cell research
+french revolution
+support vector machine
+diplomatic relations
+public health
+coral reef
+economic growth
+victorian era
+("machine" AND "learning") OR ("artificial" AND "intelligence")
+PHRASE "renewable energy"
+cloud service
+"climate" OR "environment"
+machine learning healthcare diagnosis accuracy
+legislative session
+PHRASE "quantum computing cryptography applications"
+black hole theory
+continental drift
+backpropagation algorithm
+particle accelerator
+pandemic
+"innovation" AND "technology"
+data breach
+"renewable" AND "energy" AND "solar"
+"corona" AND NOT "beer"
+PHRASE "data science"
+PHRASE "machine learning"
+blockchain technology supply chain transparency
+gradient descent optimization
+PHRASE "neural network"
+football season
+natural language processing sentiment analysis
+quantum entanglement phenomenon
+PHRASE "global climate change policy"
+election results
+"health" AND "wellness"
+"neural" AND "network" AND "deep"
+molecular chemistry
+"technology" OR "innovation"
+explain neural network
+cellular biology
+basketball playoffs
+baseball series
+nanotechnology
+music
+smartphone release
+championship game
+mouse computer
+"windows" AND NOT "glass"
+cyber security
+world war
+market volatility
+soccer match
+tropical rainforest
+PHRASE "natural language processing"
+random forest algorithm
+ai regulation
+energy
+"covid" OR "pandemic"
+deep learning
+web development
+"machine" AND "learning" AND "algorithm"
+"education" OR "training"
+telemedicine
+autonomous vehicle
+"cloud" AND "computing"
+climate change
+supreme court
+"government" OR "administration"
+tennis tournament
+great depression
+how does photosynthesis work
+"research" AND "development"
+photovoltaic cell efficiency
+5G network
+PHRASE "genetic engineering"
+space telescope
+science
+digital transformation
+"cyber" AND "security"
+renewable energy policy impact climate
+stock market
+computer architecture
+interest rates
+biotechnology
+"research" AND "development"
+computer vision system
+metaverse
+bioinformatics
+polar region
+cyber security threat detection system
+apple tree
+"education" OR "training"
+PHRASE "machine learning algorithm optimization"
+"social" AND "media"
+health
+turkey country
+"climate" AND "change"
+artificial intelligence bias ethics concerns
+merger acquisition
+"economy" OR "finance"
+"climate" AND "change" AND "policy"
+operating system
+transformer architecture
+election
+describe renewable energy
+software engineering
+genetic engineering technique
+crispr gene editing
+"deep" AND "learning"
+when was internet invented
+senate vote
+"cyber" AND "security" AND "threat"
+savanna ecosystem
+superconductor material
+"culture" OR "tradition"
+"climate" AND "change" AND "policy"
+semiconductor shortage
+cultural revolution
+inflation economy
+education
+GDP growth
+crypto regulation
+("renewable" OR "solar") AND "energy" AND NOT "fossil"
+mobile computing
+desert climate
+river delta
+chip manufacturing
+k-means clustering
+"sports" OR "athletics"
+("neural" AND "network") OR ("deep" AND "learning")
+"data" AND "science"
+cricket sport
+PHRASE "climate change"
+industrial revolution
+"jaguar" AND NOT "animal"
+tech startup
+cloud computing
+cryptocurrency price
+PHRASE "quantum computing"
+software update
+("artificial" OR "machine") AND "intelligence" AND NOT "human"
+("data" AND "science") OR ("machine" AND "learning")
+"mars" AND NOT "candy"
+trade agreement
+unemployment data
+windows operating
+("election" AND "voting") OR ("democracy" AND "government")
+"film" OR "movie"
+canyon erosion
+tech innovation

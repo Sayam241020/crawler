@@ -1,0 +1,33 @@
+{
+  "index_id": "esindex-v1.0",
+  "scenario": "MIXED_CACHE",
+  "description": "Single pass through queries - realistic production scenario",
+  "configuration": {
+    "top_k": 10,
+    "fields_searched": [
+      "content"
+    ],
+    "document_fetching": false,
+    "cache_behavior": "natural_buildup"
+  },
+  "artifact_A_latency": {
+    "avg_ms": 7.142178126514409,
+    "median_ms": 6.820200011134148,
+    "p50_ms": 6.820200011134148,
+    "p90_ms": 9.348500025225803,
+    "p95_ms": 10.26905000617262,
+    "p99_ms": 11.20034999621566,
+    "min_ms": 2.6551999617367983,
+    "max_ms": 46.87640001066029,
+    "std_ms": 3.0275890281408304
+  },
+  "artifact_B_throughput": {
+    "queries_per_second": 140.01,
+    "total_queries": 256,
+    "note": "Calculated from average latency"
+  },
+  "artifact_C_memory": {
+    "disk_mb": 418.11,
+    "documents": 100000
+  }
+}

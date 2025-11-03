@@ -1,0 +1,2373 @@
+{
+  "total_queries": 256,
+  "generation_seed": 42,
+  "categories": [
+    "single_term_common",
+    "single_term_rare",
+    "two_term_related",
+    "two_term_unrelated",
+    "boolean_and_simple",
+    "boolean_and_complex",
+    "boolean_or",
+    "boolean_not",
+    "boolean_complex",
+    "phrase_simple",
+    "phrase_long",
+    "news_politics",
+    "news_business",
+    "news_sports",
+    "news_technology",
+    "wiki_science",
+    "wiki_history",
+    "wiki_geography",
+    "wiki_technology",
+    "technical_cs",
+    "technical_science",
+    "trending_recent",
+    "long_tail",
+    "informational",
+    "mixed_simple_boolean"
+  ],
+  "statistics": {
+    "total": 256,
+    "single_term": 20,
+    "multi_term": 123,
+    "boolean": 99,
+    "phrase": 21,
+    "complex": 10,
+    "avg_length": 2.84,
+    "category_distribution": {
+      "wiki_science": 10,
+      "boolean_or": 11,
+      "two_term_unrelated": 10,
+      "phrase_long": 10,
+      "wiki_history": 11,
+      "news_politics": 10,
+      "phrase_simple": 11,
+      "boolean_not": 10,
+      "technical_cs": 11,
+      "boolean_and_simple": 10,
+      "single_term_rare": 10,
+      "single_term_common": 10,
+      "long_tail": 10,
+      "wiki_geography": 10,
+      "news_sports": 10,
+      "two_term_related": 10,
+      "news_technology": 10,
+      "wiki_technology": 11,
+      "informational": 10,
+      "trending_recent": 10,
+      "mixed_simple_boolean": 10,
+      "boolean_and_complex": 10,
+      "technical_science": 10,
+      "boolean_complex": 10,
+      "news_business": 11
+    }
+  },
+  "queries": [
+    {
+      "query": "quantum mechanics",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"government\" OR \"policy\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "java island",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"renewable energy technology development\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "ancient civilization",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "political debate",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"space exploration\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "congressional hearing",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "golf club",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"apple\" AND NOT \"fruit\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"mercury\" AND NOT \"planet\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "recurrent neural network",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"quantum\" AND \"computing\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "blockchain",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "sports",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "research",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "reinforcement learning agent",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "natural language processing",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"research\" OR \"study\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"global climate change policy\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "renewable",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "ancient egypt",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "deep learning autonomous vehicle safety",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "tectonic plate",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "hockey finals",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"artificial intelligence ethics concerns\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "stem cells",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "attention mechanism model",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "politics",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "cybersecurity",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "cybersecurity threat",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "winter olympics",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "ocean current",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "software testing",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "why climate change important",
+      "category": "informational",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "compare solar wind energy",
+      "category": "informational",
+      "length": 4,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "society",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "atomic structure",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"artificial intelligence ethics concerns\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "encryption algorithm",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "climate summit",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"amazon\" AND NOT \"river\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cryptocurrency",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "\"government\" OR \"administration\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "theory relativity",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"artificial\" AND \"intelligence\" AND \"ethics\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "app launch",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"cyber security\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "nanotechnology application",
+      "category": "technical_science",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "database management",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "particle physics",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "genetic engineering crop yield improvement",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"virus\" AND NOT \"computer\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"education\" OR \"learning\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"climate\" OR \"environment\") AND \"policy\"",
+      "category": "boolean_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"natural language processing\"",
+      "category": "phrase_long",
+      "length": 4,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "quantum breakthrough",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "distributed system",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "nuclear fusion reaction",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "programming language",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "federal reserve",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"election\" OR \"voting\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "chemical reaction",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "Amazon forest",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "jaguar animal",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"renewable energy technology development\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"deep learning\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "renewable transition",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "where is great barrier reef",
+      "category": "informational",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "who discovered penicillin",
+      "category": "informational",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "golf championship",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"genetic\" OR \"gene\") AND \"engineering\" AND NOT \"clone\"",
+      "category": "boolean_complex",
+      "length": 8,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "quantum computing cryptography security implications",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "quarterly earnings",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"artificial intelligence\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"renewable\" AND \"energy\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "compiler design",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "olympic medal",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "network topology",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "define machine learning",
+      "category": "informational",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"python\" AND NOT \"snake\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "what is quantum computing",
+      "category": "informational",
+      "length": 4,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"health\" AND \"wellness\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "neural network image recognition performance",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"cyber\" AND \"security\") OR (\"data\" AND \"privacy\")",
+      "category": "boolean_complex",
+      "length": 7,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "\"machine\" AND \"learning\" AND \"algorithm\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "Mars planet",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "roman empire",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"machine\" AND \"learning\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "dark matter theory",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "periodic table",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "age enlightenment",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"genetic\" AND \"engineering\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "renaissance period",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"quantum\" AND \"computing\" AND \"cryptography\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "immigration policy",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "gravitational wave",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"data\" AND \"science\" AND \"python\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"science\" OR \"technology\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"turkey\" AND NOT \"bird\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "space exploration",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "particle accelerator physics",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "presidential campaign",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "corporate earnings",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "green hydrogen",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"covid\" OR \"pandemic\") AND \"vaccine\" AND NOT \"misinformation\"",
+      "category": "boolean_complex",
+      "length": 8,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "stem cell research",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "french revolution",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "support vector machine",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "diplomatic relations",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "public health",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "coral reef",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "economic growth",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "victorian era",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"machine\" AND \"learning\") OR (\"artificial\" AND \"intelligence\")",
+      "category": "boolean_complex",
+      "length": 7,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"renewable energy\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cloud service",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"climate\" OR \"environment\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "machine learning healthcare diagnosis accuracy",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "legislative session",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"quantum computing cryptography applications\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "black hole theory",
+      "category": "wiki_science",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "continental drift",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "backpropagation algorithm",
+      "category": "technical_cs",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "particle accelerator",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "pandemic",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "\"innovation\" AND \"technology\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "data breach",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"renewable\" AND \"energy\" AND \"solar\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"corona\" AND NOT \"beer\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"data science\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"machine learning\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "blockchain technology supply chain transparency",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "gradient descent optimization",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"neural network\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "football season",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "natural language processing sentiment analysis",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "quantum entanglement phenomenon",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"global climate change policy\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "election results",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"health\" AND \"wellness\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"neural\" AND \"network\" AND \"deep\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "molecular chemistry",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"technology\" OR \"innovation\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "explain neural network",
+      "category": "informational",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cellular biology",
+      "category": "wiki_science",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "basketball playoffs",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "baseball series",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "nanotechnology",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "music",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "smartphone release",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "championship game",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "mouse computer",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"windows\" AND NOT \"glass\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cyber security",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "world war",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "market volatility",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "soccer match",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "tropical rainforest",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"natural language processing\"",
+      "category": "phrase_long",
+      "length": 4,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "random forest algorithm",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "ai regulation",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "energy",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "\"covid\" OR \"pandemic\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "deep learning",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "web development",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"machine\" AND \"learning\" AND \"algorithm\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"education\" OR \"training\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "telemedicine",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "autonomous vehicle",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"cloud\" AND \"computing\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "climate change",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "supreme court",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"government\" OR \"administration\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "tennis tournament",
+      "category": "news_sports",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "great depression",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "how does photosynthesis work",
+      "category": "informational",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"research\" AND \"development\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "photovoltaic cell efficiency",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "5G network",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"genetic engineering\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "space telescope",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "science",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "digital transformation",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"cyber\" AND \"security\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "renewable energy policy impact climate",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "stock market",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "computer architecture",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "interest rates",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "biotechnology",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "\"research\" AND \"development\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "computer vision system",
+      "category": "technical_cs",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "metaverse",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "bioinformatics",
+      "category": "single_term_rare",
+      "length": 1,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "polar region",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cyber security threat detection system",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "apple tree",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"education\" OR \"training\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"machine learning algorithm optimization\"",
+      "category": "phrase_long",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"social\" AND \"media\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "health",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "turkey country",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"climate\" AND \"change\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "artificial intelligence bias ethics concerns",
+      "category": "long_tail",
+      "length": 5,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "merger acquisition",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"economy\" OR \"finance\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"climate\" AND \"change\" AND \"policy\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "operating system",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "transformer architecture",
+      "category": "technical_cs",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "election",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "describe renewable energy",
+      "category": "informational",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "software engineering",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "genetic engineering technique",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "crispr gene editing",
+      "category": "technical_science",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"deep\" AND \"learning\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "when was internet invented",
+      "category": "informational",
+      "length": 4,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "senate vote",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"cyber\" AND \"security\" AND \"threat\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "savanna ecosystem",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "superconductor material",
+      "category": "technical_science",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"culture\" OR \"tradition\"",
+      "category": "mixed_simple_boolean",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"climate\" AND \"change\" AND \"policy\"",
+      "category": "boolean_and_complex",
+      "length": 5,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "semiconductor shortage",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cultural revolution",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "inflation economy",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "education",
+      "category": "single_term_common",
+      "length": 1,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": true
+    },
+    {
+      "query": "GDP growth",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "crypto regulation",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"renewable\" OR \"solar\") AND \"energy\" AND NOT \"fossil\"",
+      "category": "boolean_complex",
+      "length": 8,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "mobile computing",
+      "category": "wiki_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "desert climate",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "river delta",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "chip manufacturing",
+      "category": "trending_recent",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "k-means clustering",
+      "category": "technical_cs",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"sports\" OR \"athletics\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"neural\" AND \"network\") OR (\"deep\" AND \"learning\")",
+      "category": "boolean_complex",
+      "length": 7,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "\"data\" AND \"science\"",
+      "category": "boolean_and_simple",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cricket sport",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"climate change\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "industrial revolution",
+      "category": "wiki_history",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "\"jaguar\" AND NOT \"animal\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "tech startup",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cloud computing",
+      "category": "two_term_related",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "cryptocurrency price",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "PHRASE \"quantum computing\"",
+      "category": "phrase_simple",
+      "length": 3,
+      "has_boolean": false,
+      "has_phrase": true,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "software update",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"artificial\" OR \"machine\") AND \"intelligence\" AND NOT \"human\"",
+      "category": "boolean_complex",
+      "length": 8,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"data\" AND \"science\") OR (\"machine\" AND \"learning\")",
+      "category": "boolean_complex",
+      "length": 7,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "\"mars\" AND NOT \"candy\"",
+      "category": "boolean_not",
+      "length": 4,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "trade agreement",
+      "category": "news_politics",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "unemployment data",
+      "category": "news_business",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "windows operating",
+      "category": "two_term_unrelated",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "(\"election\" AND \"voting\") OR (\"democracy\" AND \"government\")",
+      "category": "boolean_complex",
+      "length": 7,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": true,
+      "is_single_term": false
+    },
+    {
+      "query": "\"film\" OR \"movie\"",
+      "category": "boolean_or",
+      "length": 3,
+      "has_boolean": true,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "canyon erosion",
+      "category": "wiki_geography",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    },
+    {
+      "query": "tech innovation",
+      "category": "news_technology",
+      "length": 2,
+      "has_boolean": false,
+      "has_phrase": false,
+      "has_parens": false,
+      "is_single_term": false
+    }
+  ]
+}

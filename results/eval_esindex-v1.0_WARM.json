@@ -1,0 +1,33 @@
+{
+  "index_id": "esindex-v1.0",
+  "scenario": "WARM_CACHE",
+  "description": "Queries run repeatedly - shows best-case ES performance with full cache",
+  "configuration": {
+    "top_k": 10,
+    "fields_searched": [
+      "content"
+    ],
+    "document_fetching": false,
+    "cache_warming": "queries_run_3x_each"
+  },
+  "artifact_A_latency": {
+    "avg_ms": 6.673908006746387,
+    "median_ms": 6.447424995712936,
+    "p50_ms": 6.447424995712936,
+    "p90_ms": 9.486575014307164,
+    "p95_ms": 10.223525008768775,
+    "p99_ms": 11.91413498454494,
+    "min_ms": 2.35870000324212,
+    "max_ms": 13.57804998406209,
+    "std_ms": 2.0136315423306907
+  },
+  "artifact_B_throughput": {
+    "queries_per_second": 219.84,
+    "total_queries": 256,
+    "note": "Measured with warm cache"
+  },
+  "artifact_C_memory": {
+    "disk_mb": 418.11,
+    "documents": 100000
+  }
+}

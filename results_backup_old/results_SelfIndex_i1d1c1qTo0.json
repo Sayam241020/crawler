@@ -1,0 +1,38 @@
+{
+    "index_name": "SelfIndex_i1d1c1qTo0",
+    "index_type": "SelfIndex",
+    "configuration": {
+        "x": 1,
+        "y": 1,
+        "z": 1,
+        "q": "T",
+        "i": 0
+    },
+    "index_stats": {
+        "total_documents": 163950,
+        "total_terms": 771441
+    },
+    "test_info": {
+        "total_queries": 256,
+        "successful_queries": 256,
+        "failed_queries": 0
+    },
+    "artifact_A_latency": {
+        "average_ms": 22.5,
+        "median_ms": 20.53,
+        "p95_ms": 39.61,
+        "p99_ms": 47.65,
+        "min_ms": 0.0,
+        "max_ms": 78.8
+    },
+    "artifact_B_throughput": {
+        "queries_per_second": 46.13,
+        "total_time_seconds": 5.55
+    },
+    "artifact_C_memory": {
+        "disk_footprint_mb": 915.32,
+        "disk_footprint_gb": 0.89,
+        "runtime_memory_gb": 7.92,
+        "index_memory_increase_gb": 7.87
+    }
+}

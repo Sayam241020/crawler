@@ -1,0 +1,33 @@
+{
+  "index_id": "esindex-v1.0",
+  "scenario": "TRUE_COLD_CACHE",
+  "description": "Cache cleared before each query - most honest architectural comparison",
+  "configuration": {
+    "top_k": 10,
+    "fields_searched": [
+      "content"
+    ],
+    "document_fetching": false,
+    "cache_clearing": "before_every_query"
+  },
+  "artifact_A_latency": {
+    "avg_ms": 9.19879218645292,
+    "median_ms": 9.121499984757975,
+    "p50_ms": 9.121499984757975,
+    "p90_ms": 11.972599953878671,
+    "p95_ms": 12.596724991453812,
+    "p99_ms": 13.741490000393242,
+    "min_ms": 3.4277000231668353,
+    "max_ms": 14.350999961607158,
+    "std_ms": 2.1657742079810145
+  },
+  "artifact_B_throughput": {
+    "queries_per_second": 97.59,
+    "total_queries": 256,
+    "note": "Measured with cache clearing"
+  },
+  "artifact_C_memory": {
+    "disk_mb": 418.11,
+    "documents": 100000
+  }
+}

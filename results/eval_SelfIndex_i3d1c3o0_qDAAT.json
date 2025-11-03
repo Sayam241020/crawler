@@ -1,0 +1,37 @@
+{
+  "identifier": "SelfIndex_i3d1c3o0",
+  "configuration": {
+    "index_type": 3,
+    "datastore": 1,
+    "compression": 3,
+    "query_mode": "DAAT",
+    "optimization": "0"
+  },
+  "artifact_A_latency": {
+    "average_ms": 12.41377968699453,
+    "median_ms": 6.457599985878915,
+    "p50_ms": 6.457599985878915,
+    "p90_ms": 19.44019997608848,
+    "p95_ms": 33.60175000852905,
+    "p99_ms": 149.39022999023987,
+    "min_ms": 0.11660001473501325,
+    "max_ms": 207.7601000200957,
+    "std_ms": 23.246254778631133,
+    "num_zero_latency": 0
+  },
+  "artifact_B_throughput": {
+    "queries_per_second": 80.55564261766817,
+    "total_queries": 256,
+    "total_time_seconds": 3.1779275998706
+  },
+  "artifact_C_memory": {
+    "disk_mb": 262.64621353149414,
+    "ram_gb": 0.8952522277832031,
+    "disk_bytes": 275404516
+  },
+  "evaluation_params": {
+    "query_file": "queries/test_queries.txt",
+    "num_queries": 256,
+    "top_k": 10
+  }
+}
